@@ -1,142 +1,154 @@
 <div align="center">
 
-  <a href="https://github.com/woai66">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=%E4%BD%A0%E5%A5%BD%EF%BC%81+%F0%9F%91%8B+%E6%88%91%E6%98%AF+ZYQ;%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%BC%80%E5%8F%91%E7%88%B1%E5%A5%BD%E8%80%85;%E7%89%A9%E8%81%94%E7%BD%91+%7C+%E7%A1%AC%E4%BB%B6+%7C+%E4%BB%A3%E7%A0%81&v=2" alt="Typing SVG" />
-  </a>
-  
-  <br><br>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=210&text=ZYQ%20%7C%20Embedded%20Craftsman&fontAlign=50&fontAlignY=38&color=0:0B1220,30:0F2745,60:1D4ED8,100:38BDF8&fontColor=F8FAFC&fontSize=44&desc=Build%20reliable%20systems%20from%20silicon%20to%20software&descAlign=50&descAlignY=60" alt="header" />
 
-  <a href="https://github.com/woai66">
-    <img src="https://komarev.com/ghpvc/?username=woai66&label=PROFILE+VIEWS&style=flat-square&color=58A6FF" alt="Profile views" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/woai66?tab=followers">
-    <img src="https://img.shields.io/github/followers/woai66?label=FOLLOWERS&style=flat-square&color=58A6FF" alt="GitHub followers" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/woai66?tab=repositories">
-    <img src="https://img.shields.io/badge/FOCUS-Embedded%20%26%20IoT-1f6feb?style=flat-square" alt="Focus" />
-  </a>
-  &nbsp;
-  <a href="https://hizyq.cn/">
-    <img src="https://img.shields.io/badge/Website-hizyq.cn-0ea5e9?style=flat-square&logo=google-chrome&logoColor=white" alt="Website" />
-  </a>
+<br/>
 
-  <br><br>
+<a href="https://github.com/woai66">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&pause=1200&color=0EA5E9&center=true&vCenter=true&width=760&lines=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%98%AF+ZYQ;%E5%B5%8C%E5%85%A5%E5%BC%8F+%7C+%E7%89%A9%E8%81%94%E7%BD%91+%7C+%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5;%E5%96%9C%E6%AC%A2%E6%8A%8A%E5%A4%8D%E6%9D%82%E9%97%AE%E9%A2%98%E5%81%9A%E6%88%90%E7%A8%B3%E5%AE%9A%E7%B3%BB%E7%BB%9F" alt="typing" />
+</a>
 
-  <img src="https://img.shields.io/badge/Status-Learning%20FreeRTOS%20%7C%20i.MX6ULL-2563eb?style=for-the-badge" alt="Current status" />
+<br/>
+<br/>
+
+<a href="https://github.com/woai66">
+  <img src="https://komarev.com/ghpvc/?username=woai66&label=PROFILE+VIEWS&style=flat-square&color=0EA5E9" alt="views" />
+</a>
+&nbsp;
+<a href="https://github.com/woai66?tab=followers">
+  <img src="https://img.shields.io/github/followers/woai66?label=FOLLOWERS&style=flat-square&color=1D4ED8" alt="followers" />
+</a>
+&nbsp;
+<a href="https://hizyq.cn/">
+  <img src="https://img.shields.io/badge/Website-hizyq.cn-0284C7?style=flat-square&logo=google-chrome&logoColor=white" alt="website" />
+</a>
+&nbsp;
+<img src="https://img.shields.io/badge/Focus-FreeRTOS%20%7C%20i.MX6ULL%20Linux-0369A1?style=flat-square" alt="focus" />
 
 </div>
 
 ---
 
-## 👨‍💻 关于我 (About Me)
+## About Me
 
-```c
-// woai66.c
-#include <stdio.h>
+<table>
+<tr>
+<td width="52%" valign="top">
 
-typedef struct {
-    char *name;
-    char *role;
-    char *education;
-    char *location;
-    char *achievements[2];
-    char *current_focus;
-} Developer;
+### 我在做什么
 
-int main() {
-    Developer me = {
-        .name          = "章永琪 (ZYQ)",
-        .role          = "嵌入式开发 & 物联网爱好者 🛠️",
-        .education     = "浙大城市学院 (B.Eng) -> 南信大 (M.Eng)",
-        .location      = "China 🇨🇳",
-        .achievements  = {"🏆 2025年电赛全国一等奖",
-                          "🎓 考研初试407分上岸 (专业排名前14)"},
-        .current_focus = "⚡ 深入学习 FreeRTOS、i.MX6ULL嵌入式Linux"
-    };
+- 深入学习 FreeRTOS 与 i.MX6ULL 嵌入式 Linux
+- 准备研究生复试（数电模电）
 
-    printf("Hello, World! 欢迎访问我的主页！\n");
-    return 0;
-}
-```
+### 关键词
+
+`Embedded Systems` `IoT` `STM32` `ESP32` `Linux` `C/C++`
+
+</td>
+<td width="48%" valign="top">
+
+### 里程碑
+
+- 2025年国家奖学金/省优毕业生
+- 考研初试 407 分
+
+### 地点
+
+
+杭州-浙大城市学院
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 📊 GitHub 数据统计
+## GitHub Stats
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=woai66&theme=tokyonight&show_icons=true&locale=cn&count_private=true&hide_border=true" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=woai66&theme=tokyonight&layout=compact&locale=cn&hide_border=true&langs_count=6" />
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=woai66&show_icons=true&theme=transparent&title_color=0EA5E9&text_color=334155&icon_color=0EA5E9&border_color=93C5FD" alt="stats" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=woai66&layout=compact&theme=transparent&title_color=0EA5E9&text_color=334155&border_color=93C5FD&langs_count=6" alt="langs" />
 
 </div>
 
 ---
 
-## 🛠️ 技术栈
-
-### 编程语言
-<div>
-
-![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Shell](https://img.shields.io/badge/Shell-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
-
-</div>
-
-### 嵌入式 & 硬件平台
-<div>
-
-![STM32](https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
-![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
-![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
-![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-C51A4A?style=for-the-badge&logo=raspberry-pi&logoColor=white)
-
-</div>
-
-### RTOS & 框架
-<div>
-
-![FreeRTOS](https://img.shields.io/badge/FreeRTOS-3F3F3F?style=for-the-badge&logo=freertos&logoColor=white)
-![ESP-IDF](https://img.shields.io/badge/ESP--IDF-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
-![MQTT](https://img.shields.io/badge/MQTT-660066?style=for-the-badge&logo=mqtt&logoColor=white)
-
-</div>
-
-### 开发工具
-<div>
-
-![VSCode](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![PlatformIO](https://img.shields.io/badge/PlatformIO-3F3F3F?style=for-the-badge&logo=platformio&logoColor=white)
-![Keil MDK](https://img.shields.io/badge/Keil_MDK-007396?style=for-the-badge&logoColor=white)
-![STM32CubeIDE](https://img.shields.io/badge/STM32CubeIDE-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-
-</div>
-
----
-
-## 🚀 开源项目
-
-| 项目 | 描述 | 技术 |
-|------|------|------|
-| [🏆 SeekFree_MSPM0G3507_Opensource_Library](https://github.com/woai66/SeekFree_MSPM0G3507_Opensource_Library) | 2025TI板电赛工程 | ![C](https://img.shields.io/badge/-C-A8B9CC?style=flat&logo=c&logoColor=black) |
-| [🥇 STC8H8K64_DEBUG_C_PROJECT](https://github.com/woai66/STC8H8K64_DEBUG_C_PROJECT) | 2025年电赛STC部分工程--全国一等奖 | ![C](https://img.shields.io/badge/-C-A8B9CC?style=flat&logo=c&logoColor=black) |
-| [🔧 imx6ull-demos](https://github.com/woai66/imx6ull-demos) | i.MX6ULL 嵌入式Linux开发示例 | ![C](https://img.shields.io/badge/-C-A8B9CC?style=flat&logo=c&logoColor=black) |
-| [🤖 DEBUG_SmartCar_main](https://github.com/EveAaA/DEBUG_SmartCar_main) | DEBUG实验室19届智能视觉工程 | ![C](https://img.shields.io/badge/-C-A8B9CC?style=flat&logo=c&logoColor=black) |
-
----
-
-## 🔗 联系我
+## Tech Stack
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/woai66)
-[![个人网站](https://img.shields.io/badge/个人网站-hizyq.cn-58A6FF?style=for-the-badge&logo=google-chrome&logoColor=white)](https://hizyq.cn/)
-[![Email](https://img.shields.io/badge/邮箱联系-2017600918@qq.com-D44638?style=for-the-badge&logo=gmail&logoColor=white)](mailto:2017600918@qq.com)
+<img src="https://skillicons.dev/icons?i=c,cpp,python,linux,vscode,git&theme=light" alt="skills" />
+
+<br/>
+<br/>
+
+<img src="https://img.shields.io/badge/MCU-STM32-0F172A?style=for-the-badge&logo=stmicroelectronics&logoColor=white" alt="stm32" />
+<img src="https://img.shields.io/badge/MCU-ESP32-111827?style=for-the-badge&logo=espressif&logoColor=white" alt="esp32" />
+<img src="https://img.shields.io/badge/Platform-Arduino-1F2937?style=for-the-badge&logo=arduino&logoColor=2DD4BF" alt="arduino" />
+<img src="https://img.shields.io/badge/RTOS-FreeRTOS-0B1120?style=for-the-badge&logoColor=white" alt="freertos" />
+<img src="https://img.shields.io/badge/Protocol-MQTT-1E293B?style=for-the-badge&logo=mqtt&logoColor=F97316" alt="mqtt" />
+
+</div>
+
+---
+
+## Featured Projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🏆 SeekFree MSPM0G3507 Opensource Library
+2025 逐飞TI板 电赛代码
+
+[查看项目](https://github.com/woai66/SeekFree_MSPM0G3507_Opensource_Library)
+
+</td>
+<td width="50%" valign="top">
+
+### 🥇 STC8H8K64 Debug C Project
+2025 年电赛 STC 部分核心工程，获全国一等奖。
+
+[查看项目](https://github.com/woai66/STC8H8K64_DEBUG_C_PROJECT)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🔧 i.MX6ULL Demos
+i.MX6ULL 嵌入式 Linux 开发示例与学习记录。
+
+[查看项目](https://github.com/woai66/imx6ull-demos)
+
+</td>
+<td width="50%" valign="top">
+
+### ![alt text](046C1CCD.png) SkyStar-Stm32-Car
+STM32小车-立创天空星-轮趣三轮
+
+[查看项目](https://github.com/woai66/SkyStar-Stm32-Car)
+
+</td>
+</tr>
+</table>
+
+---
+
+## Connect
+
+<div align="center">
+
+<a href="https://github.com/woai66">
+  <img src="https://img.shields.io/badge/GitHub-0F172A?style=for-the-badge&logo=github&logoColor=white" alt="github" />
+</a>
+<a href="https://hizyq.cn/">
+  <img src="https://img.shields.io/badge/Website-0284C7?style=for-the-badge&logo=google-chrome&logoColor=white" alt="site" />
+</a>
+<a href="mailto:2017600918@qq.com">
+  <img src="https://img.shields.io/badge/Email-EF4444?style=for-the-badge&logo=gmail&logoColor=white" alt="email" />
+</a>
 
 </div>
 
@@ -144,8 +156,8 @@ int main() {
 
 <div align="center">
 
-*"任何足够先进的技术都与魔法无异。" — 阿瑟·克拉克*
+"任何足够先进的技术都与魔法无异。"  -  Arthur C. Clarke
 
-![嵌入式开发动图](https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif)
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0B1220,100:38BDF8&height=3&section=footer" alt="footer" />
 
 </div>
