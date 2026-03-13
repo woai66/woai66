@@ -31,35 +31,44 @@
 
 ## About Me
 
+<div align="center">
+
 <table>
 <tr>
 <td width="52%" valign="top">
 
-### 我在做什么
+<h3 align="center">我在做什么</h3>
 
-- 深入学习 FreeRTOS 与 i.MX6ULL 嵌入式 Linux
-- 准备研究生复试（数电模电）
+<p align="center">
+深入学习 FreeRTOS 与 i.MX6ULL 嵌入式 Linux<br/>
+准备研究生复试（数电模电）
+</p>
 
-### 关键词
+<h3 align="center">关键词</h3>
 
-`Embedded Systems` `IoT` `STM32` `ESP32` `Linux` `C/C++`
+<p align="center">
+Embedded Systems · IoT · STM32 · ESP32 · Linux · C/C++
+</p>
 
 </td>
 <td width="48%" valign="top">
 
-### 里程碑
+<h3 align="center">里程碑</h3>
 
-- 2025年国家奖学金/省优毕业生
-- 考研初试 407 分
+<p align="center">
+2025年国家奖学金 / 省优毕业生<br/>
+考研初试 407 分
+</p>
 
-### 地点
+<h3 align="center">地点</h3>
 
-
-杭州-浙大城市学院
+<p align="center">杭州 - 浙大城市学院</p>
 
 </td>
 </tr>
 </table>
+
+</div>
 
 ---
 
@@ -67,8 +76,8 @@
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=woai66&show_icons=true&theme=transparent&title_color=0EA5E9&text_color=334155&icon_color=0EA5E9&border_color=93C5FD" alt="stats" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=woai66&layout=compact&theme=transparent&title_color=0EA5E9&text_color=334155&border_color=93C5FD&langs_count=6" alt="langs" />
+<img width="390" height="170" src="https://github-readme-stats.vercel.app/api?username=woai66&show_icons=true&theme=transparent&title_color=0EA5E9&text_color=334155&icon_color=0EA5E9&border_color=93C5FD" alt="stats" />
+<img width="390" height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=woai66&layout=compact&card_width=390&theme=transparent&title_color=0EA5E9&text_color=334155&border_color=93C5FD&langs_count=6" alt="langs" />
 
 </div>
 
