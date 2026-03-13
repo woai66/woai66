@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- 动态打字标题 -->
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=%E4%BD%A0%E5%A5%BD%EF%BC%81+%F0%9F%91%8B+%E6%88%91%E6%98%AF+ZYQ;%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%BC%80%E5%8F%91%E7%88%B1%E5%A5%BD%E8%80%85;%E7%89%A9%E8%81%94%E7%BD%91+%7C+%E7%A1%AC%E4%BB%B6+%7C+%E4%BB%A3%E7%A0%81" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=%E4%BD%A0%E5%A5%BD%EF%BC%81+%F0%9F%91%8B+%E6%88%91%E6%98%AF+ZYQ;%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%BC%80%E5%8F%91%E7%88%B1%E5%A5%BD%E8%80%85;%E7%89%A9%E8%81%94%E7%BD%91+%7C+%E7%A1%AC%E4%BB%B6+%7C+%E4%BB%A3%E7%A0%81" alt="Typing SVG" />
 
 <!-- 访客计数 & 关注按钮 -->
 <img src="https://komarev.com/ghpvc/?username=woai66&color=58A6FF&style=for-the-badge&label=访客数" alt="访客数" />
@@ -34,7 +34,7 @@ int main() {
         .hobbies       = {"嵌入式系统开发 🔧",
                           "物联网设备开发 📶",
                           "动手制作电子项目 🛠️",
-                          "考研备战(咖啡续命) ☕"},
+                          "考研初试407分上岸南信大 🎓"},
         .current_focus = "深入学习 FreeRTOS & 低功耗设计"
     };
 
@@ -51,12 +51,6 @@ int main() {
 
 <img height="180em" src="https://github-readme-stats.vercel.app/api?username=woai66&theme=tokyonight&show_icons=true&locale=cn&count_private=true&hide_border=true" />
 <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=woai66&theme=tokyonight&layout=compact&locale=cn&hide_border=true&langs_count=6" />
-
-</div>
-
-<div align="center">
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=woai66&theme=tokyonight&hide_border=true&locale=zh_Hans&date_format=%5BY.%5Dn.j)](https://git.io/streak-stats)
 
 </div>
 
@@ -111,19 +105,10 @@ int main() {
 
 | 项目 | 描述 | 技术 |
 |------|------|------|
-| [🔧 STM32 HAL库实用工具集](https://github.com/woai66/stm32-utils) | STM32 HAL 常用驱动与工具封装 | ![C](https://img.shields.io/badge/-C-A8B9CC?style=flat&logo=c&logoColor=black) ![STM32](https://img.shields.io/badge/-STM32-03234B?style=flat) |
-| [📡 ESP32物联网开发框架](https://github.com/woai66/esp32-iot-framework) | 基于 ESP-IDF 的物联网快速开发框架 | ![C](https://img.shields.io/badge/-C-A8B9CC?style=flat&logo=c&logoColor=black) ![MQTT](https://img.shields.io/badge/-MQTT-660066?style=flat) |
-| [📐 嵌入式C++设计模式](https://github.com/woai66/embedded-cpp-patterns) | 适用于资源受限环境的 C++ 设计模式 | ![C++](https://img.shields.io/badge/-C++-00599C?style=flat&logo=c%2B%2B&logoColor=white) |
-
----
-
-## 📈 贡献图
-
-<div align="center">
-
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=woai66&theme=tokyo-night&hide_border=true&area=true)](https://github.com/woai66)
-
-</div>
+| [🏆 SeekFree_MSPM0G3507_Opensource_Library](https://github.com/woai66/SeekFree_MSPM0G3507_Opensource_Library) | 2025TI板电赛工程 | ![C](https://img.shields.io/badge/-C-A8B9CC?style=flat&logo=c&logoColor=black) |
+| [🥇 STC8H8K64_DEBUG_C_PROJECT](https://github.com/woai66/STC8H8K64_DEBUG_C_PROJECT) | 2025年电赛STC部分工程--全国一等奖 | ![C](https://img.shields.io/badge/-C-A8B9CC?style=flat&logo=c&logoColor=black) |
+| [🔧 imx6ull-demos](https://github.com/woai66/imx6ull-demos) | i.MX6ULL 嵌入式Linux开发示例 | ![C](https://img.shields.io/badge/-C-A8B9CC?style=flat&logo=c&logoColor=black) |
+| [🤖 DEBUG_SmartCar_main](https://github.com/EveAaA/DEBUG_SmartCar_main) | DEBUG实验室19届智能视觉工程 | ![C](https://img.shields.io/badge/-C-A8B9CC?style=flat&logo=c&logoColor=black) |
 
 ---
 
@@ -132,7 +117,7 @@ int main() {
 <div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/woai66)
-[![个人网站](https://img.shields.io/badge/个人网站-bestzyq.me-58A6FF?style=for-the-badge&logo=google-chrome&logoColor=white)](https://bestzyq.me)
+[![个人网站](https://img.shields.io/badge/个人网站-hizyq.cn-58A6FF?style=for-the-badge&logo=google-chrome&logoColor=white)](https://hizyq.cn/)
 [![Email](https://img.shields.io/badge/邮箱联系-2017600918@qq.com-D44638?style=for-the-badge&logo=gmail&logoColor=white)](mailto:2017600918@qq.com)
 
 </div>
