@@ -6,11 +6,25 @@
   
   <br><br>
 
-  <img src="https://komarev.com/ghpvc/?username=woai66&color=58A6FF&style=for-the-badge&label=%E8%AE%BF%E5%AE%A2%E6%95%B0" alt="访客数" />
-  &nbsp;&nbsp;
-  <a href="https://github.com/woai66?tab=followers">
-    <img src="https://img.shields.io/github/followers/woai66?label=%E5%85%B3%E6%B3%A8%E6%88%91&style=for-the-badge&color=58A6FF" alt="GitHub followers" />
+  <a href="https://github.com/woai66">
+    <img src="https://komarev.com/ghpvc/?username=woai66&label=PROFILE+VIEWS&style=flat-square&color=58A6FF" alt="Profile views" />
   </a>
+  &nbsp;
+  <a href="https://github.com/woai66?tab=followers">
+    <img src="https://img.shields.io/github/followers/woai66?label=FOLLOWERS&style=flat-square&color=58A6FF" alt="GitHub followers" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/woai66?tab=repositories">
+    <img src="https://img.shields.io/badge/FOCUS-Embedded%20%26%20IoT-1f6feb?style=flat-square" alt="Focus" />
+  </a>
+  &nbsp;
+  <a href="https://hizyq.cn/">
+    <img src="https://img.shields.io/badge/Website-hizyq.cn-0ea5e9?style=flat-square&logo=google-chrome&logoColor=white" alt="Website" />
+  </a>
+
+  <br><br>
+
+  <img src="https://img.shields.io/badge/Status-Learning%20FreeRTOS%20%7C%20i.MX6ULL-2563eb?style=for-the-badge" alt="Current status" />
 
 </div>
 
