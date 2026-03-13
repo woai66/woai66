@@ -1,13 +1,18 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=%E4%BD%A0%E5%A5%BD%EF%BC%81%20%F0%9F%91%8B%20%E6%88%91%E6%98%AF%20ZYQ;%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%BC%80%E5%8F%91%E7%88%B1%E5%A5%BD%E8%80%85;%E7%89%A9%E8%81%94%E7%BD%91%20%7C%20%E7%A1%AC%E4%BB%B6%20%7C%20%E4%BB%A3%E7%A0%81&v=1" alt="Typing SVG" />
+  <a href="https://github.com/woai66">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=%E4%BD%A0%E5%A5%BD%EF%BC%81+%F0%9F%91%8B+%E6%88%91%E6%98%AF+ZYQ;%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%BC%80%E5%8F%91%E7%88%B1%E5%A5%BD%E8%80%85;%E7%89%A9%E8%81%94%E7%BD%91+%7C+%E7%A1%AC%E4%BB%B6+%7C+%E4%BB%A3%E7%A0%81&v=2" alt="Typing SVG" />
+  </a>
+  
+  <br><br>
 
-<img src="https://komarev.com/ghpvc/?username=woai66&color=58A6FF&style=for-the-badge&label=访客数" alt="访客数" />
-&nbsp;
-[![GitHub followers](https://img.shields.io/github/followers/woai66?label=关注我&style=for-the-badge&color=58A6FF)](https://github.com/woai66?tab=followers)
+  <img src="https://komarev.com/ghpvc/?username=woai66&color=58A6FF&style=for-the-badge&label=访客数" alt="访客数" />
+  &nbsp;&nbsp;
+  <a href="https://github.com/woai66?tab=followers">
+    <img src="https://img.shields.io/github/followers/woai66?label=关注我&style=for-the-badge&color=58A6FF" alt="GitHub followers" />
+  </a>
 
 </div>
-
 ---
 
 ## 👨‍💻 关于我 (About Me)
