@@ -6,13 +6,14 @@
   
   <br><br>
 
-  <img src="https://komarev.com/ghpvc/?username=woai66&color=58A6FF&style=for-the-badge&label=访客数" alt="访客数" />
+  <img src="https://komarev.com/ghpvc/?username=woai66&color=58A6FF&style=for-the-badge&label=%E8%AE%BF%E5%AE%A2%E6%95%B0" alt="访客数" />
   &nbsp;&nbsp;
   <a href="https://github.com/woai66?tab=followers">
-    <img src="https://img.shields.io/github/followers/woai66?label=关注我&style=for-the-badge&color=58A6FF" alt="GitHub followers" />
+    <img src="https://img.shields.io/github/followers/woai66?label=%E5%85%B3%E6%B3%A8%E6%88%91&style=for-the-badge&color=58A6FF" alt="GitHub followers" />
   </a>
 
 </div>
+
 ---
 
 ## 👨‍💻 关于我 (About Me)
