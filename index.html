@@ -1,7 +1,373 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ZYQ - 嵌入式开发爱好者</title>
+  <meta name="description" content="ZYQ 的个人主页 - 嵌入式开发 & 物联网爱好者" />
+  <style>
+    :root {
+      --bg: #0d1117;
+      --bg2: #161b22;
+      --border: #30363d;
+      --text: #c9d1d9;
+      --text-muted: #8b949e;
+      --accent: #58a6ff;
+      --accent2: #3fb950;
+      --tag-bg: #1f6feb33;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+    }
+
+    /* ---- NAV ---- */
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(13,17,23,.85);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: .8rem 2rem;
+    }
+    nav .logo { font-size: 1.2rem; font-weight: 700; color: var(--accent); }
+    nav ul { list-style: none; display: flex; gap: 1.5rem; }
+    nav ul a { color: var(--text-muted); text-decoration: none; font-size: .95rem; transition: color .2s; }
+    nav ul a:hover { color: var(--accent); }
+
+    /* ---- HERO ---- */
+    .hero {
+      text-align: center;
+      padding: 5rem 2rem 4rem;
+      background: radial-gradient(ellipse at 50% 0%, #1f6feb22 0%, transparent 70%);
+    }
+    .avatar {
+      width: 110px; height: 110px; border-radius: 50%;
+      border: 3px solid var(--accent);
+      margin-bottom: 1.2rem;
+      box-shadow: 0 0 20px #58a6ff44;
+    }
+    .hero h1 { font-size: 2.4rem; font-weight: 700; }
+    .hero h1 span { color: var(--accent); }
+    .hero .subtitle {
+      margin-top: .6rem;
+      color: var(--text-muted);
+      font-size: 1.1rem;
+      min-height: 1.6rem;
+    }
+    .typed-cursor { color: var(--accent); animation: blink .7s infinite; }
+    @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
+
+    .hero .badges { margin-top: 1.5rem; display: flex; flex-wrap: wrap; gap: .6rem; justify-content: center; }
+    .badge {
+      padding: .35rem .9rem;
+      border-radius: 2rem;
+      font-size: .82rem;
+      background: var(--tag-bg);
+      border: 1px solid var(--accent);
+      color: var(--accent);
+    }
+    .hero .cta { margin-top: 2rem; display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+    .btn {
+      padding: .55rem 1.4rem;
+      border-radius: 6px;
+      font-size: .95rem;
+      text-decoration: none;
+      transition: all .2s;
+      cursor: pointer;
+      border: none;
+    }
+    .btn-primary { background: var(--accent); color: #0d1117; font-weight: 600; }
+    .btn-primary:hover { background: #79c0ff; }
+    .btn-outline { background: transparent; border: 1px solid var(--border); color: var(--text); }
+    .btn-outline:hover { border-color: var(--accent); color: var(--accent); }
+
+    /* ---- SECTIONS ---- */
+    section { padding: 4rem 2rem; max-width: 900px; margin: 0 auto; }
+    section h2 {
+      font-size: 1.5rem;
+      margin-bottom: 1.8rem;
+      padding-bottom: .5rem;
+      border-bottom: 1px solid var(--border);
+      color: var(--text);
+    }
+    section h2 span { color: var(--accent); }
+
+    /* ---- ABOUT ---- */
+    .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+    .about-item {
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1rem 1.2rem;
+      display: flex; align-items: center; gap: .8rem;
+    }
+    .about-item .icon { font-size: 1.4rem; }
+
+    /* ---- SKILLS ---- */
+    .skills-group { margin-bottom: 1.5rem; }
+    .skills-group h3 { color: var(--text-muted); font-size: .85rem; text-transform: uppercase; letter-spacing: .06em; margin-bottom: .8rem; }
+    .tag-list { display: flex; flex-wrap: wrap; gap: .5rem; }
+    .tag {
+      padding: .3rem .8rem;
+      border-radius: 4px;
+      font-size: .83rem;
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      color: var(--text);
+      transition: border-color .2s, color .2s;
+    }
+    .tag:hover { border-color: var(--accent); color: var(--accent); }
+
+    /* ---- PROJECTS ---- */
+    .project-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem; }
+    .project-card {
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.2rem 1.4rem;
+      transition: border-color .2s, transform .2s;
+      text-decoration: none;
+      color: inherit;
+      display: flex;
+      flex-direction: column;
+      gap: .5rem;
+    }
+    .project-card:hover { border-color: var(--accent); transform: translateY(-2px); }
+    .project-card .proj-title { font-weight: 600; font-size: 1rem; color: var(--accent); }
+    .project-card .proj-desc { font-size: .88rem; color: var(--text-muted); flex: 1; }
+    .project-card .proj-tags { display: flex; gap: .4rem; flex-wrap: wrap; }
+    .project-card .proj-tag {
+      font-size: .75rem;
+      padding: .15rem .5rem;
+      background: var(--tag-bg);
+      border-radius: 2rem;
+      color: var(--accent);
+    }
+
+    /* ---- STATS ---- */
+    .stats-grid { display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; }
+    .stats-grid img { border-radius: 8px; max-width: 100%; }
+
+    /* ---- CONTACT ---- */
+    .contact-links { display: flex; flex-wrap: wrap; gap: 1rem; }
+    .contact-link {
+      display: flex; align-items: center; gap: .6rem;
+      padding: .7rem 1.2rem;
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      text-decoration: none;
+      color: var(--text);
+      font-size: .92rem;
+      transition: border-color .2s, color .2s;
+    }
+    .contact-link:hover { border-color: var(--accent); color: var(--accent); }
+    .contact-link .cl-icon { font-size: 1.2rem; }
+
+    /* ---- FOOTER ---- */
+    footer {
+      text-align: center;
+      padding: 2rem;
+      border-top: 1px solid var(--border);
+      color: var(--text-muted);
+      font-size: .85rem;
+    }
+
+    @media (max-width: 600px) {
+      .hero h1 { font-size: 1.8rem; }
+      .about-grid { grid-template-columns: 1fr; }
+      nav ul { gap: 1rem; }
+    }
+  </style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+<!-- NAV -->
+<nav>
+  <div class="logo">&lt;ZYQ /&gt;</div>
+  <ul>
+    <li><a href="#about">关于</a></li>
+    <li><a href="#skills">技术栈</a></li>
+    <li><a href="#projects">项目</a></li>
+    <li><a href="#stats">统计</a></li>
+    <li><a href="#contact">联系</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+  <img class="avatar" src="https://github.com/woai66.png" alt="ZYQ avatar" />
+  <h1>你好，我是 <span>ZYQ</span> 👋</h1>
+  <p class="subtitle"><span id="typed"></span><span class="typed-cursor">|</span></p>
+  <div class="badges">
+    <span class="badge">🔧 嵌入式开发</span>
+    <span class="badge">📶 物联网</span>
+    <span class="badge">🤖 硬件黑客</span>
+    <span class="badge">☕ 咖啡续命</span>
+  </div>
+  <div class="cta">
+    <a class="btn btn-primary" href="https://github.com/woai66" target="_blank">GitHub 主页</a>
+    <a class="btn btn-outline" href="mailto:2017600918@qq.com">联系我</a>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section id="about">
+  <h2>👨‍💻 关于<span>我</span></h2>
+  <div class="about-grid">
+    <div class="about-item"><span class="icon">🔧</span><span>专注于嵌入式系统开发</span></div>
+    <div class="about-item"><span class="icon">📶</span><span>爱好物联网设备开发</span></div>
+    <div class="about-item"><span class="icon">🛠️</span><span>喜欢动手制作电子项目</span></div>
+    <div class="about-item"><span class="icon">☕</span><span>考研备战中，咖啡是必需品</span></div>
+    <div class="about-item"><span class="icon">🎯</span><span>当前专注：FreeRTOS 低功耗设计</span></div>
+    <div class="about-item"><span class="icon">🌍</span><span>来自 中国 🇨🇳</span></div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <h2>🛠️ 技术<span>栈</span></h2>
+  <div class="skills-group">
+    <h3>编程语言</h3>
+    <div class="tag-list">
+      <span class="tag">C</span>
+      <span class="tag">C++</span>
+      <span class="tag">Python</span>
+      <span class="tag">Shell</span>
+    </div>
+  </div>
+  <div class="skills-group">
+    <h3>嵌入式 & 硬件平台</h3>
+    <div class="tag-list">
+      <span class="tag">STM32</span>
+      <span class="tag">ESP32</span>
+      <span class="tag">Arduino</span>
+      <span class="tag">Raspberry Pi</span>
+    </div>
+  </div>
+  <div class="skills-group">
+    <h3>RTOS & 框架</h3>
+    <div class="tag-list">
+      <span class="tag">FreeRTOS</span>
+      <span class="tag">ESP-IDF</span>
+      <span class="tag">MQTT</span>
+      <span class="tag">HAL</span>
+    </div>
+  </div>
+  <div class="skills-group">
+    <h3>开发工具</h3>
+    <div class="tag-list">
+      <span class="tag">VS Code</span>
+      <span class="tag">PlatformIO</span>
+      <span class="tag">Keil MDK</span>
+      <span class="tag">STM32CubeIDE</span>
+      <span class="tag">Git</span>
+      <span class="tag">Linux</span>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <h2>🚀 开源<span>项目</span></h2>
+  <div class="project-grid">
+    <a class="project-card" href="https://github.com/woai66/stm32-utils" target="_blank">
+      <div class="proj-title">🔧 STM32 HAL 库实用工具集</div>
+      <div class="proj-desc">STM32 HAL 常用驱动与工具封装，提升开发效率</div>
+      <div class="proj-tags">
+        <span class="proj-tag">C</span>
+        <span class="proj-tag">STM32</span>
+        <span class="proj-tag">HAL</span>
+      </div>
+    </a>
+    <a class="project-card" href="https://github.com/woai66/esp32-iot-framework" target="_blank">
+      <div class="proj-title">📡 ESP32 物联网开发框架</div>
+      <div class="proj-desc">基于 ESP-IDF 的物联网快速开发框架，支持 MQTT</div>
+      <div class="proj-tags">
+        <span class="proj-tag">C</span>
+        <span class="proj-tag">ESP32</span>
+        <span class="proj-tag">MQTT</span>
+      </div>
+    </a>
+    <a class="project-card" href="https://github.com/woai66/embedded-cpp-patterns" target="_blank">
+      <div class="proj-title">📐 嵌入式 C++ 设计模式</div>
+      <div class="proj-desc">适用于资源受限环境的 C++ 设计模式实践</div>
+      <div class="proj-tags">
+        <span class="proj-tag">C++</span>
+        <span class="proj-tag">嵌入式</span>
+      </div>
+    </a>
+  </div>
+</section>
+
+<!-- STATS -->
+<section id="stats">
+  <h2>📊 GitHub <span>统计</span></h2>
+  <div class="stats-grid">
+    <img src="https://github-readme-stats.vercel.app/api?username=woai66&theme=tokyonight&show_icons=true&locale=cn&hide_border=true" alt="GitHub Stats" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=woai66&theme=tokyonight&layout=compact&locale=cn&hide_border=true" alt="Top Languages" />
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <h2>🔗 联系<span>我</span></h2>
+  <div class="contact-links">
+    <a class="contact-link" href="https://github.com/woai66" target="_blank">
+      <span class="cl-icon">🐙</span> GitHub
+    </a>
+    <a class="contact-link" href="mailto:2017600918@qq.com">
+      <span class="cl-icon">📧</span> 2017600918@qq.com
+    </a>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 ZYQ · 用 ❤️ 和 ☕ 构建</p>
+</footer>
+
+<script>
+  // Typing animation
+  const lines = [
+    "嵌入式开发 & 物联网爱好者",
+    "STM32 / ESP32 / Arduino",
+    "FreeRTOS 低功耗设计探索者",
+    "硬件黑客 🤖",
+  ];
+  let li = 0, ci = 0, deleting = false;
+  const el = document.getElementById("typed");
+
+  function type() {
+    const cur = lines[li];
+    if (!deleting) {
+      el.textContent = cur.slice(0, ++ci);
+      if (ci === cur.length) { deleting = true; setTimeout(type, 1800); return; }
+    } else {
+      el.textContent = cur.slice(0, --ci);
+      if (ci === 0) { deleting = false; li = (li + 1) % lines.length; }
+    }
+    setTimeout(type, deleting ? 50 : 80);
+  }
+  type();
+
+  // Smooth scroll
+  document.querySelectorAll('a[href^="#"]').forEach(a => {
+    a.addEventListener("click", e => {
+      e.preventDefault();
+      document.querySelector(a.getAttribute("href"))?.scrollIntoView({ behavior: "smooth" });
+    });
+  });
+</script>
+
 </body>
 </html>
