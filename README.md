@@ -6,11 +6,17 @@
   
   <br><br>
 
-  <img src="https://komarev.com/ghpvc/?username=woai66&color=58A6FF&style=for-the-badge&label=%E8%AE%BF%E5%AE%A2%E6%95%B0" alt="访客数" />
+  <img src="https://komarev.com/ghpvc/?username=woai66&color=58A6FF&style=for-the-badge&label=VISITORS" alt="访客数" />
   &nbsp;&nbsp;
   <a href="https://github.com/woai66?tab=followers">
-    <img src="https://img.shields.io/github/followers/woai66?label=%E5%85%B3%E6%B3%A8%E6%88%91&style=for-the-badge&color=58A6FF" alt="GitHub followers" />
+    <img src="https://img.shields.io/github/followers/woai66?label=FOLLOWERS&style=for-the-badge&color=58A6FF" alt="GitHub Followers" />
   </a>
+  &nbsp;&nbsp;
+  <img src="https://img.shields.io/github/stars/woai66?affiliations=OWNER%2CCOLLABORATOR&style=for-the-badge&color=58A6FF&label=STARS" alt="GitHub Stars" />
+
+  <br><br>
+
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=woai66&theme=tokyonight&hide_border=true&locale=zh_Hans" alt="GitHub Streak" />
 
 </div>
 
