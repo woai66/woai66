@@ -1,9 +1,7 @@
 <div align="center">
 
-<!-- 动态打字标题 -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=%E4%BD%A0%E5%A5%BD%EF%BC%81+%F0%9F%91%8B+%E6%88%91%E6%98%AF+ZYQ;%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%BC%80%E5%8F%91%E7%88%B1%E5%A5%BD%E8%80%85;%E7%89%A9%E8%81%94%E7%BD%91+%7C+%E7%A1%AC%E4%BB%B6+%7C+%E4%BB%A3%E7%A0%81" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=%E4%BD%A0%E5%A5%BD%EF%BC%81%20%F0%9F%91%8B%20%E6%88%91%E6%98%AF%20ZYQ;%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%BC%80%E5%8F%91%E7%88%B1%E5%A5%BD%E8%80%85;%E7%89%A9%E8%81%94%E7%BD%91%20%7C%20%E7%A1%AC%E4%BB%B6%20%7C%20%E4%BB%A3%E7%A0%81&v=1" alt="Typing SVG" />
 
-<!-- 访客计数 & 关注按钮 -->
 <img src="https://komarev.com/ghpvc/?username=woai66&color=58A6FF&style=for-the-badge&label=访客数" alt="访客数" />
 &nbsp;
 [![GitHub followers](https://img.shields.io/github/followers/woai66?label=关注我&style=for-the-badge&color=58A6FF)](https://github.com/woai66?tab=followers)
@@ -12,7 +10,7 @@
 
 ---
 
-## 👨‍💻 关于我
+## 👨‍💻 关于我 (About Me)
 
 ```c
 // woai66.c
@@ -21,24 +19,24 @@
 typedef struct {
     char *name;
     char *role;
+    char *education;
     char *location;
-    char *hobbies[4];
+    char *achievements[2];
     char *current_focus;
 } Developer;
 
 int main() {
     Developer me = {
-        .name          = "ZYQ",
-        .role          = "嵌入式开发 & 物联网爱好者",
+        .name          = "章永琪 (ZYQ)",
+        .role          = "嵌入式开发 & 物联网爱好者 🛠️",
+        .education     = "浙大城市学院 (B.Eng) -> 南信大 (M.Eng)",
         .location      = "China 🇨🇳",
-        .hobbies       = {"嵌入式系统开发 🔧",
-                          "物联网设备开发 📶",
-                          "动手制作电子项目 🛠️",
-                          "考研初试407分上岸南信大 🎓"},
-        .current_focus = "深入学习 FreeRTOS & 低功耗设计"
+        .achievements  = {"🏆 2025年电赛全国一等奖",
+                          "🎓 考研初试407分上岸 (专业排名前14)"},
+        .current_focus = "⚡ 深入学习 FreeRTOS、i.MX6ULL嵌入式Linux"
     };
 
-    printf("欢迎访问我的主页！\n");
+    printf("Hello, World! 欢迎访问我的主页！\n");
     return 0;
 }
 ```
