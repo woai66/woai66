@@ -41,7 +41,7 @@
 
 <p align="center">
 深入学习 FreeRTOS 与 i.MX6ULL 嵌入式 Linux<br/>
-准备研究生复试（数电模电）
+南信大拟录取
 </p>
 
 <h3 align="center">关键词</h3>
