@@ -16,17 +16,6 @@
 
 <br/>
 
-<table align="center">
-  <tr>
-    <td align="center" width="180"><b>国家奖学金</b><br/><sub>2025</sub></td>
-    <td align="center" width="180"><b>电赛全国一等奖</b><br/><sub>2025 · STC 部分</sub></td>
-    <td align="center" width="180"><b>省优毕业生</b><br/><sub>本科</sub></td>
-    <td align="center" width="180"><b>考研初试 407</b><br/><sub>南京信息工程大学</sub></td>
-  </tr>
-</table>
-
-<br/>
-
 ## About
 
 ```c
